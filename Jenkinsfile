@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/gitober/TemperatureConverter', branch: 'main'
+                git url: 'https://github.com/gitober/TemperatureConverter.git', branch: 'main'
             }
         }
 
